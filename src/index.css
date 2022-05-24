@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  margin:50px 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: antiquewhite;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.navigation-bar {
+  margin: 20px 50px;
+  text-align: center;
+}
+
+#layout{
+  height: 90vh;
+  border-radius: 20px;
+  display: grid;
+  grid-template-rows:1fr 4fr ;
+  text-align: center;
+  background-color: lightgoldenrodyellow;
+  
+
+}
+
+
+#nav{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid grey;
+    text-align: center;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    height: 5vh;
+    border-radius: 20px;
+    background-color: beige;
+
+  
+  
+}
+#cde{
+  border: 2px solid grey;
+  background-color: lightgoldenrodyellow;
+  color: black;
+  font-weight: bold;
+}
+
+.profile-item {
+  width: 200px;
+  height: 450px;
+  margin-bottom: 10px;
+  background: lightcyan;
+  border: 2px solid lightgrey;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  
+}
+.git{
+  color: black;
+}
+
+.profile-item > img {
+  width: 100px;
+  
+}
+h3 button {
+  border-radius: 5px solid grey;
+  font-weight: bold;
+  font-size: 20px;
+  color:white;
+  background-color: black;
+}
+.profileInfo{
+  height: 300px;
+  width: 300px;
+  border: 2px solid grey;
+  background-color: lightcyan;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  }
+
+.profileInfo >img{
+  width:200px ;
+  height: 200px ;
+}
+
+#player{
+     border-radius: 2px ;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 5px;
+    background-color: black;
+    color: white;
+   
+}
+input{
+  border-radius: 2px solid grey;
+  background-color: white;
+  font-size: 15px;
+  font-weight:bold;
+  color: black;
+}
+.battle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-left:auto ;
+    margin-right: auto;
+    text-align: center;
+    
+  }
+  .battle-btn{
+    
+    border-radius: 20px ;
+    background-color: black;
+    padding: 5px 5px;
+    font-weight: bold;
+    font-size: 15px;
+    color:white;
+    text-align: center;
+  }
